@@ -3,10 +3,11 @@
   display: grid;
   grid-template-rows: 80px 70px 4fr 4fr;
   grid-template-columns: 1fr 2fr 2fr;
-  grid-template-areas:  "sidebar searchbar searchbar"
-                        "sidebar directory directory"
-                        "sidebar gallery gallery"
-                        "sidebar gallery gallery"
+  grid-template-areas:
+    "sidebar searchbar searchbar"
+    "sidebar directory directory"
+    "sidebar gallery gallery"
+    "sidebar gallery gallery";
 }
 
 img {
